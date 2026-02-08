@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,21 +12,45 @@
     <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
 
     <!-- Text Colors -->
+    <p class="text-black">Tailwind is awesome</p>
+    <p class="text-white bg-black">Tailwind is awesome</p>
+    <p class="text-red-500">Tailwind is awesome</p>
+    <p class="text-green-400">Tailwind is awesome</p>
+    <p class="text-emerald-800">Tailwind is awesome</p>
 
     <!-- Background Colors -->
+    <div class="bg-red-300">My div box</div>
 
     <!-- Text Underline -->
+    <p class="underline">Tailwind is awesome</p>
+    <p class="underline decoration-red-700">Tailwind is awesome</p>
 
     <!-- Border Colors -->
+    <input type="text" class="border border-orange-500" />
+    <input type="text" class="border border-emerald-500" />
 
     <!-- Divide Colors -->
+    <div class="divide-y">
+      <div>Item 1</div>
+      <div>Item 2</div>
+      <div>Item 3</div>
+      <div>Item 4</div>
+      <div>Item 5</div>
+    </div>
 
     <!-- Outline Colors -->
+    <button class="outline">My button</button>
+    <br />
 
     <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+    <button class="shadow-lg bg-cyan-500 shadow-purple-500/80">
+      My button
+    </button>
 
     <!-- Accent Colors -->
+    <input type="checkbox" class="accent-cyan-400" />
 
     <!-- Arbitrary Colors -->
+    <div class="bg-[rgb(123,323,432)]">Hello</div>
   </body>
 </html>

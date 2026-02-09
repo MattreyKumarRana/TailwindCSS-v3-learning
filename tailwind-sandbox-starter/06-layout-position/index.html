@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,14 +9,22 @@
   </head>
   <body>
     <!-- Positioning -->
-
-    <!-- Top left corner -->
-
-    <!-- Top right corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <!-- Top left corner -->
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-500"></div>
+      <!-- Top right corner -->
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-500"></div>
+    </div>
     <!-- Bottom left corner -->
 
     <!-- Bottom right corner -->
+
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <!-- Top left corner -->
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-500"></div>
+      <!-- Top right corner -->
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-500"></div>
+    </div>
 
     <!-- Span top edge -->
 
@@ -27,8 +35,24 @@
     <!-- Span bottom edge -->
 
     <!-- Display Classes -->
-
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero unde
+      facilis omnis, consectetur tenetur harum hic non molestiae eligendi
+      voluptatem! <span class="text-red-500">This is a span element</span> Minus
+      saepe fugiat eligendi inventore, quam reiciendis quis maxime esse
+      consectetur provident amet similique quia sint ullam. Dolore odit, itaque
+      ipsa aliquam quidem obcaecati molestias maiores. Consectetur illo quidem
+      expedita nobis magnam quibusdam est. Et tenetur officia quibusdam
+      <span class="hidden">iste?</span>
+    </p>
     <!-- Z-Index -->
+    <div class="relative bg-blue-600 w-full h-32">
+      <div class="absolute left-0 top-0 bg-yellow-200 w-20 h-32 z-10"></div>
+      <div class="absolute left-20 top-0 bg-yellow-400 w-20 h-32 z-20"></div>
+      <div class="absolute left-40 top-0 bg-yellow-600 w-20 h-32 z-30"></div>
+      <div class="absolute left-60 top-0 bg-yellow-800 w-20 h-32 z-40"></div>
+      <div class="absolute left-80 top-0 bg-yellow-900 w-20 h-32 z-50"></div>
+    </div>
 
     <!-- Floats -->
   </body>

@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,23 +9,68 @@
   </head>
   <body>
     <!-- Hover State Styling -->
+    <button
+      class="bg-black hover:bg-orange-500 text-white py-3 px-5 rounded-lg m-3"
+    >
+      Submit
+    </button>
 
     <!-- Focus State Styling -->
+    <button
+      class="bg-black focus:bg-green-500 text-white py-3 px-5 rounded-lg m-3"
+    >
+      Submit
+    </button>
 
     <!-- Active State Styling -->
+    <button
+      class="bg-black active:bg-orange-500 text-white py-3 px-5 rounded-lg m-3"
+    >
+      Submit
+    </button>
 
     <!-- Styling based on parent state -->
+    <a
+      href=""
+      class="group block max-x-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500"
+    >
+      <h3 class="group-hover:text-white">Card</h3>
+      <p class="group-hover:text-white">This is the card</p>
+    </a>
 
     <!-- Pseudo Classes -->
+    <ul>
+      <li class="even:bg-green-300 odd:bg-orange-300">Item 1</li>
+      <li class="even:bg-green-300 odd:bg-orange-300">Item 2</li>
+      <li class="even:bg-green-300 odd:bg-orange-300">Item 3</li>
+      <li class="even:bg-green-300 odd:bg-orange-300">Item 4</li>
+      <li class="even:bg-green-300 odd:bg-orange-300">Item 5</li>
+      <li class="even:bg-green-300 odd:bg-orange-300">Item 6</li>
+    </ul>
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select class="appearance-none">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
 
     <!-- Cursor -->
+    <p class="cursor-wait">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum
+      nesciunt molestias maiores voluptates, obcaecati aliquam fugiat similique
+      rem facilis dolorem cumque vel porro deserunt commodi, reprehenderit iste
+      saepe nisi.
+    </p>
 
     <!-- Resize -->
 
     <!-- User Select -->
+    <p class="select-none">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit distinctio
+      tempore maxime cum odio quae aspernatur, fuga perferendis, ratione nihil
+      adipisci quidem iure hic sunt suscipit illum nesciunt assumenda eaque.
+    </p>
 
     <!-- Smooth Scroll Example -->
   </body>
